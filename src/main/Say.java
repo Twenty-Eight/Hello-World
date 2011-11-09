@@ -1,10 +1,14 @@
 package main;
 
 public abstract class Say {
-
+	protected String text;
+	
 	/**
 	 * @param args
 	 */	
-	public abstract void tellMore();
+	
+	public void tellMe() {
+		System.out.println(text);
+	}
 
 }
